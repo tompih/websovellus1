@@ -1,7 +1,8 @@
 
         /* style.css */
 
-body {
+/* Background for index.html */
+body.index {
     background-image: url('assets/pictures/oamk.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,6 +12,36 @@ body {
     font-family: Arial, sans-serif;
     color: #fff;
 }
+
+/* Background for about.html */
+body.about {
+    background-image: url('assets/pictures/kuva1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* This keeps the background fixed while scrolling */
+}
+
+/* Background for portfolio.html */
+body.portfolio {
+    background-image: url('assets/pictures/kuva2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* This keeps the background fixed while scrolling */
+}
+
+/* Background for contact.html */
+body.contact {
+    background-image: url('assets/pictures/kuva3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* This keeps the background fixed while scrolling */
+}
+
+/* Rest of your CSS styles for header, nav, section, footer, and other elements */
+
+
+/* Header, navigation, section, and footer styles remain the same */
+
 
 
         header {
@@ -62,7 +93,7 @@ body {
         }
 
 #about {
-    color: black; /* Set the text color to red */
+    color: black;
 }
 
 #contact {
@@ -72,3 +103,4 @@ body {
 #portfolio {
     color: black;
 }
+
