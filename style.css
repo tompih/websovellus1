@@ -15,7 +15,7 @@ body.index {
 
 /* Background for about.html */
 body.about {
-    background-image: url('assets/pictures/kuva1.png');
+    background-image: url('assets/pictures/kuva1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; /* This keeps the background fixed while scrolling */
