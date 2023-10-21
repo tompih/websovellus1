@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="common.js" defer></script>
+</head>
+<body class="index">
+    <header>
+        <h1>Tomi Pihlajamaa</h1>
+        <p>Welcome</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!-- Add the following line to include the "Data" option -->
+            <li><a href="data.html">Data</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>Welcome</h2>
+        <p>Welcome to my personal website.</p>
+
+        <!-- Interaction buttons -->
+        <button onclick="showAlert()">Click me for a simple interaction</button>
+
+        <button id="btnChangeColor">Change Color</button>
+        <p id="colorText">Click the button to change my color!</p>
+
+        <button id="btnUpdateContent">Update Content</button>
+        <p id="dynamicParagraph">This content can be dynamically updated!</p>
+
+        <button id="btnAddItem">Add List Item</button>
+        <ul id="dynamicList">
+            <!-- List items will be added here -->
+        </ul>
+    </section>
+</body>
+</html>
